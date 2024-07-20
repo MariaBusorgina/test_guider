@@ -12,31 +12,35 @@
 ```bash
 git clone https://github.com/MariaBusorgina/test_guider.git
 ```
-2. Создать и активировать виртуальное окружение 
+2. Перейти в каталог
 ```bash
-python -m venv venv
+cd test_guide
+```
+3. Создать и активировать виртуальное окружение 
+```bash
+python3 -m venv venv
 source venv/bin/activate
 ```
-3. Перейти в каталог
+4. Перейти в каталог
 ```bash
 cd city_guide
 ```
-4. Установить зависимости
+5. Установить зависимости
 ```bash
 pip install -r requirements.txt
 ```
-5. Создать и применить миграции
+6. Создать и применить миграции
 ```bash
-python manage.py migrate
+python3 manage.py migrate
 ```
-6. Для восстановления данных из файла JSON выполнить команду  
+7. Для восстановления данных из файла JSON выполнить команду  
 *** для проверки работы функционала (или заполнить значениями самостоятельно)
 ```bash
-python manage.py loaddata my_db.json
+python3 manage.py loaddata my_db.json
 ```
-7. Запуск сервера
+8. Запуск сервера
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 ### Доступные эндпоинты:
