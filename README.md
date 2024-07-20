@@ -14,7 +14,7 @@ git clone https://github.com/MariaBusorgina/test_guider.git
 ```
 2. Перейти в каталог
 ```bash
-cd test_guide
+cd test_guider
 ```
 3. Создать и активировать виртуальное окружение 
 ```bash
